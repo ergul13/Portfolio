@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+# M. Ergül Akgül | Personal Portfolio
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/e09fa95a-9bf0-4510-86aa-e065ad856203
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-## How can I edit this code?
+**Computer Engineering Student | Deep Learning Enthusiast | System Architect**
 
-There are several ways of editing your application.
+[🌐 Live Demo](https://ergul13.github.io/rafi/) • [💼 LinkedIn](https://www.linkedin.com/in/ergul13/) • [🐙 GitHub](https://github.com/ergul13)
 
-**Use Lovable**
+</div>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e09fa95a-9bf0-4510-86aa-e065ad856203) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📖 About
 
-**Use your preferred IDE**
+A modern, responsive portfolio website showcasing my journey as a Computer Engineering student focused on the mathematical foundations of AI. Built with cutting-edge web technologies and featuring smooth animations, dark/light theme support, and an elegant user interface.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🎨 **Modern UI/UX** - Clean, minimalist design with glassmorphism effects
+- 🌓 **Dark/Light Theme** - Seamless theme switching with system preference detection
+- 📱 **Fully Responsive** - Optimized for all screen sizes
+- ⚡ **Fast Performance** - Built with Vite for lightning-fast load times
+- 🎭 **Smooth Animations** - Framer Motion powered transitions and scroll reveals
+- 🖱️ **Custom Cursor** - Interactive cursor effects for enhanced UX
+- 📄 **Resume Section** - Downloadable CV with modal preview
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | React 18, TypeScript |
+| **Styling** | Tailwind CSS, shadcn/ui |
+| **Animations** | Framer Motion |
+| **Build Tool** | Vite |
+| **Deployment** | GitHub Pages |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Quick Start
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone the repository
+git clone https://github.com/ergul13/rafi.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Navigate to project directory
+cd rafi
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/          # React components
+│   ├── ui/             # shadcn/ui components
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section with skills
+│   ├── Projects.tsx    # Projects showcase
+│   ├── Resume.tsx      # Experience & education
+│   └── Contact.tsx     # Contact form
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── pages/              # Page components
+```
 
-**Use GitHub Codespaces**
+## 📬 Contact
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**M. Ergül Akgül**  
+📍 Ankara, Türkiye  
+📧 [LinkedIn](https://www.linkedin.com/in/ergul13/)  
+🐙 [GitHub](https://github.com/ergul13)  
+🤗 [Hugging Face](https://huggingface.co/ergulakgul)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+<div align="center">
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Made with ❤️ by M. Ergül Akgül
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e09fa95a-9bf0-4510-86aa-e065ad856203) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+</div>
