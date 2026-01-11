@@ -7,7 +7,7 @@
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-**Computer Engineering Student | Deep Learning Enthusiast | System Architect**
+**Computer Engineering Student | Deep Learning Enthusiast | Software Engineer candidate**
 
 [🌐 Live Demo](https://ergul13.github.io/Portfolio/) • [💼 LinkedIn](https://www.linkedin.com/in/ergul13/) • [🐙 GitHub](https://github.com/ergul13)
 
