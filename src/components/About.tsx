@@ -88,7 +88,7 @@ const About = () => {
               I am a Computer Engineering student with a strong interest in Artificial Intelligence.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My main focus is on **Deep Learning** and **Machine Learning**. I enjoy using **PyTorch** to build neural networks and experiment with different architectures. I also have a good understanding of Java and software development basics through my university projects. I am constantly learning new things to improve my skills in the AI field.
+              My main focus is on Deep Learning and Machine Learning. I enjoy using PyTorch to build neural networks and experiment with different architectures. I also have a good understanding of Java and software development basics through my university projects. I am constantly learning new things to improve my skills in the AI field.
             </p>
 
             <div className="space-y-3 pt-4">
