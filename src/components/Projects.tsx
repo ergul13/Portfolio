@@ -23,7 +23,7 @@ const Projects = () => {
       description: "Solved class imbalance in medical scans by integrating Genetic Algorithms with ResNet50 + CBAM Attention modules. Optimized feature selection to boost minority class sensitivity by 12%, ensuring reliable diagnosis.",
       badges: ["ResNet50", "Genetic Algorithms", "Attention Mechanisms"],
       icon: <Brain className="w-6 h-6 text-primary" />,
-      link: "https://github.com/ergul13/eru-ai-turing-stroke-classification",
+      link: "https://github.com/ERU-AI-Turing-Stroke-Classification/ergul-stroke.git",
       image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=80",
     },
     {
@@ -33,6 +33,30 @@ const Projects = () => {
       icon: <Network className="w-6 h-6 text-primary" />,
       link: "https://github.com/ergul13/zero-to-hero",
       image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&q=80",
+    },
+    {
+      title: "comprehensive Java Tutorial: Patterns & Internals",
+      description: "Bridged the gap between theory and practice by implementing GOF Design Patterns and memory optimizations. Created a reference architecture for scalable OOP systems and functional stream processing.",
+      badges: ["Java", "Design Patterns", "Clean Code", "OOP"],
+      icon: <BookOpen className="w-6 h-6 text-primary" />,
+      link: "https://github.com/ergul13/javatutorial",
+      image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80",
+    },
+    {
+      title: "Real Estate Analytics: Market Regression",
+      description: "Tackled market valuation volatility by developing a robust regression pipeline with advanced feature engineering. Reduced Root Mean Square Error (RMSE) by 18% through ensemble modeling and extensive EDA.",
+      badges: ["Python", "Scikit-Learn", "Data Science", "Regression"],
+      icon: <Home className="w-6 h-6 text-primary" />,
+      link: "https://github.com/ergul13/prediction_of_house",
+      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+    },
+    {
+      title: "SME Nexus: Modular ERP System",
+      description: "Streamlined SME operations by architecting a modular JavaFX ERP system with Role-Based Access Control. Cut manual reporting time by 40% via optimized SQL queries and automated inventory tracking.",
+      badges: ["Java", "JavaFX", "MySQL", "Software Architecture"],
+      icon: <Database className="w-6 h-6 text-primary" />,
+      link: "https://github.com/yazilim-muhendisligi-project-group/project-repository.git", 
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
     },
     {
       title: "Concurrent Nexus: Deadlock-Free Traffic Control",
@@ -51,22 +75,6 @@ const Projects = () => {
       image: "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fgame-theory-evolution-trust-russ-powell&ved=0CBYQjRxqFwoTCKiM84_wg5IDFQAAAAAdAAAAABAH&opi=89978449",
     },
     {
-      title: "Real Estate Analytics: Market Regression",
-      description: "Tackled market valuation volatility by developing a robust regression pipeline with advanced feature engineering. Reduced Root Mean Square Error (RMSE) by 18% through ensemble modeling and extensive EDA.",
-      badges: ["Python", "Scikit-Learn", "Data Science", "Regression"],
-      icon: <Home className="w-6 h-6 text-primary" />,
-      link: "https://github.com/ergul13/prediction_of_house",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
-    },
-    {
-      title: "SME Nexus: Modular ERP System",
-      description: "Streamlined SME operations by architecting a modular JavaFX ERP system with Role-Based Access Control. Cut manual reporting time by 40% via optimized SQL queries and automated inventory tracking.",
-      badges: ["Java", "JavaFX", "MySQL", "Software Architecture"],
-      icon: <Database className="w-6 h-6 text-primary" />,
-      link: "https://github.com/ergul13/project-repository", 
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    },
-    {
       title: "Algorithm Vault: High-Performance Solutions",
       description: "Targeted computational efficiency by curating O(n)/O(log n) solutions for complex graph and DP problems. Consistently benchmarked in the top 1% for runtime execution on competitive coding platforms.",
       badges: ["C++", "Java", "Algorithms", "Data Structures"],
@@ -74,14 +82,7 @@ const Projects = () => {
       link: "https://github.com/ergul13/leetcode",
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
     },
-    {
-      title: "comprehensive Java Tutorial: Patterns & Internals",
-      description: "Bridged the gap between theory and practice by implementing GOF Design Patterns and memory optimizations. Created a reference architecture for scalable OOP systems and functional stream processing.",
-      badges: ["Java", "Design Patterns", "Clean Code", "OOP"],
-      icon: <BookOpen className="w-6 h-6 text-primary" />,
-      link: "https://github.com/ergul13/javatutorial",
-      image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80",
-    }
+    
   ];
 
   return (
