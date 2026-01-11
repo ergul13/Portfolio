@@ -5,28 +5,24 @@ import InteractiveElement from "@/components/InteractiveElement";
 const About = () => {
   const { ref, isInView } = useScrollReveal();
 
-const skills = [
-    { name: "Java", level: 70 }, 
-    { name: "Algorithms", level: 70 },  
-    { name: "Neural Networks", level: 70 }, 
-    { name: "Machine Learning", level: 70 }, 
-    { name: "Linux", level: 70 },
+  const skills = [
+    { name: "Machine Learning", level: 80 },
+    { name: "Deep Learning", level: 75 },
+    { name: "Data Structures", level: 75 },
+    { name: "Java", level: 65 },
+    { name: "Python", level: 60 },
+    { name: "PyTorch", level: 60 },    
     { name: "Git & GitHub", level: 70 },
-    { name: "Python", level: 60 },                          
-    { name: "C", level: 60 },        
-    { name: "Network & Security", level: 50 },           
-    { name: "SQL / Database", level: 40 },          
-    { name: "Assembly", level: 30 },            
+    { name: "Linux Basics", level: 60 },
+    { name: "SQL", level: 40 },
   ];
 
-const info = [
-    { label: "Profile", value: "Computer Engineering Student & AI Enthusiast" },
-    { label: "Focus Areas", value: "Deep Learning, Neural Networks Architecture, Computer Vision" },
-    { label: "Education", value: "B.Sc. in Computer Engineering (3rd Year)" },
-    { label: "Tech Stack", value: "Python (PyTorch), NumPy, Java, Linux Environment" },
-    { label: "Tools", value: "Google Colab, Jupyter Notebooks, IntelliJ IDEA, VS Code" },
-    { label: "Current Interest", value: "Implementing Transformers & CNNs from scratch" }, 
-    { label: "Language", value: "Turkish (Native), English" },
+  const info = [
+    { label: "Status", value: "3rd Year Student" },
+    { label: "Focus", value: "Artificial Intelligence" },
+    { label: "Favorite Tools", value: "PyTorch, GitHub, Books, Java, Google" },
+    { label: "Location", value: "Kayseri, Türkiye" },
+    { label: "Languages", value: "Turkish (Native), English(B2)" },
   ];
 
   return (
@@ -37,7 +33,7 @@ const info = [
         <motion.div
           initial={scrollVariants.floatUp.initial}
           animate={isInView ? scrollVariants.floatUp.animate : {}}
-          transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 0.9 }}
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-4">
@@ -46,34 +42,22 @@ const info = [
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          {/* Left Column - Skills */}
           <InteractiveElement as="div" className="glass p-8 rounded-2xl">
             <motion.div
               initial={scrollVariants.scattered.initial}
               animate={isInView ? scrollVariants.scattered.animate : {}}
-              transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+              transition={{ duration: 1, delay: 0.2 }}
               className="space-y-6"
             >
               <div>
-                <div className="mb-6">
-                  <p className="text-primary text-sm font-semibold mb-2">Name: <span className="text-foreground font-normal">M. Ergül Akgül</span></p>
-                  <p className="text-primary text-sm font-semibold mb-2">Role: <span className="text-foreground font-normal">Computer Engineering Student</span></p>
-                  <p className="text-primary text-sm font-semibold mb-2">Focus: <span className="text-foreground font-normal">Deep Learning & Software Engineering</span></p>
-                  <p className="text-primary text-sm font-semibold">Location: <span className="text-foreground font-normal">Kayseri, Türkiye</span></p>
-                </div>
-
-                <h3 className="text-xl font-bold text-primary mb-6">Skills</h3>
+                <h3 className="text-xl font-bold text-primary mb-6">Skills & Interests</h3>
                 <div className="space-y-4">
                   {skills.map((skill, index) => (
                     <motion.div
                       key={skill.name}
-                      initial={{ opacity: 0, x: -30, rotate: -3 }}
-                      animate={isInView ? { opacity: 1, x: 0, rotate: 0 } : {}}
-                      transition={{ 
-                        duration: 0.7, 
-                        delay: 0.4 + index * 0.08,
-                        ease: [0.22, 1, 0.36, 1]
-                      }}
+                      initial={{ opacity: 0, x: -30 }}
+                      animate={isInView ? { opacity: 1, x: 0 } : {}}
+                      transition={{ duration: 0.7, delay: 0.4 + index * 0.08 }}
                     >
                       <div className="flex justify-between mb-2">
                         <span className="text-sm font-medium">{skill.name}</span>
@@ -83,7 +67,7 @@ const info = [
                         <motion.div
                           initial={{ width: 0 }}
                           animate={isInView ? { width: `${skill.level}%` } : {}}
-                          transition={{ duration: 1, delay: 0.5 + index * 0.1, ease: "easeOut" }}
+                          transition={{ duration: 1, delay: 0.5 + index * 0.1 }}
                           className="h-full bg-gradient-to-r from-primary to-accent rounded-full"
                         />
                       </div>
@@ -94,47 +78,33 @@ const info = [
             </motion.div>
           </InteractiveElement>
 
-          {/* Right Column - About Text */}
           <motion.div
             initial={scrollVariants.scatteredRight.initial}
             animate={isInView ? scrollVariants.scatteredRight.animate : {}}
-            transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 1, delay: 0.3 }}
             className="space-y-6"
           >
+            <p className="text-muted-foreground leading-relaxed text-lg">
+              I am a Computer Engineering student with a strong interest in Artificial Intelligence.
+            </p>
             <p className="text-muted-foreground leading-relaxed">
-              A Computer Engineering undergraduate driven by a desire to understand systems "under the hood". Unlike the trend of relying solely on high-level AI wrappers, I focus on the mathematical foundations of Deep Learning, implementing Autograd engines and CNN architectures from scratch to grasp the calculus behind backpropagation. My technical background is rooted in rigorous Software Engineering principles—ranging from developing multi-threaded Java simulations to advanced Linux system administration. I combine algorithmic optimization with deep learning research, aiming to bridge the gap between theoretical math and efficient code execution.
+              My main focus is on **Deep Learning** and **Machine Learning**. I enjoy using **PyTorch** to build neural networks and experiment with different architectures. I also have a good understanding of Java and software development basics through my university projects. I am constantly learning new things to improve my skills in the AI field.
             </p>
 
-            <div className="space-y-3">
+            <div className="space-y-3 pt-4">
               {info.map((item, index) => (
                 <motion.div
                   key={item.label}
-                  initial={{ opacity: 0, x: 20, y: 10 }}
-                  animate={isInView ? { opacity: 1, x: 0, y: 0 } : {}}
-                  transition={{ 
-                    duration: 0.6, 
-                    delay: 0.6 + index * 0.06,
-                    ease: [0.22, 1, 0.36, 1]
-                  }}
-                  className="flex"
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={isInView ? { opacity: 1, x: 0 } : {}}
+                  transition={{ duration: 0.6, delay: 0.6 + index * 0.06 }}
+                  className="flex flex-col sm:flex-row sm:items-center"
                 >
-                  <span className="text-primary font-semibold min-w-[140px]">{item.label}:</span>
-                  <span className="text-foreground/80">{item.value}</span>
+                  <span className="text-primary font-semibold min-w-[140px] mb-1 sm:mb-0">{item.label}:</span>
+                  <span className="text-foreground/90">{item.value}</span>
                 </motion.div>
               ))}
             </div>
-
-            <InteractiveElement as="div" className="pt-6">
-              <motion.div
-                initial={scrollVariants.depth.initial}
-                animate={isInView ? scrollVariants.depth.animate : {}}
-                transition={{ duration: 0.9, delay: 1.1, ease: [0.22, 1, 0.36, 1] }}
-                className="glass p-6 rounded-xl"
-              >
-                <p className="text-4xl font-bold text-primary mb-2">8</p>
-                <p className="text-muted-foreground">Projects completed</p>
-              </motion.div>
-            </InteractiveElement>
           </motion.div>
         </div>
       </div>

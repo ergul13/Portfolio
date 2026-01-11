@@ -43,7 +43,7 @@ A modern, responsive portfolio website showcasing my journey as a Computer Engin
 
 ```bash
 # Clone the repository
-git clone https://github.com/ergul13/rafi.git
+git clone https://github.com/ergul13/.git
 
 # Navigate to project directory
 cd rafi
