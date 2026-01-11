@@ -40,7 +40,7 @@ const Projects = () => {
       badges: ["Java", "Concurrency", "Multi-threading", "System Design"],
       icon: <Cpu className="w-6 h-6 text-primary" />,
       link: "https://github.com/ergul13/javaproject",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+      image: "https://github.com/ergul13/JavaProject/blob/master/Screenshot%202026-01-11%20at%2019.14.38.png",
     },
     {
       title: "Evolutionary Strategy Simulator",
@@ -48,7 +48,7 @@ const Projects = () => {
       badges: ["Python", "Game Theory", "Agent-Based Modeling"],
       icon: <Trophy className="w-6 h-6 text-primary" />,
       link: "https://github.com/ergul13/game-theory",
-      image: "https://images.unsplash.com/photo-1611974765270-ca1258634369?w=800&q=80",
+      image: "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fgame-theory-evolution-trust-russ-powell&ved=0CBYQjRxqFwoTCKiM84_wg5IDFQAAAAAdAAAAABAH&opi=89978449",
     },
     {
       title: "Real Estate Analytics: Market Regression",
@@ -75,7 +75,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
     },
     {
-      title: "Java Architecture: Patterns & Internals",
+      title: "comprehensive Java Tutorial: Patterns & Internals",
       description: "Bridged the gap between theory and practice by implementing GOF Design Patterns and memory optimizations. Created a reference architecture for scalable OOP systems and functional stream processing.",
       badges: ["Java", "Design Patterns", "Clean Code", "OOP"],
       icon: <BookOpen className="w-6 h-6 text-primary" />,
