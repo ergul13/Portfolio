@@ -9,7 +9,7 @@
 
 **Computer Engineering Student | Deep Learning Enthusiast | System Architect**
 
-[🌐 Live Demo](https://ergul13.github.io/rafi/) • [💼 LinkedIn](https://www.linkedin.com/in/ergul13/) • [🐙 GitHub](https://github.com/ergul13)
+[🌐 Live Demo](https://ergul13.github.io/Portfolio/) • [💼 LinkedIn](https://www.linkedin.com/in/ergul13/) • [🐙 GitHub](https://github.com/ergul13)
 
 </div>
 
