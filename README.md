@@ -43,10 +43,10 @@ A modern, responsive portfolio website showcasing my journey as a Computer Engin
 
 ```bash
 # Clone the repository
-git clone https://github.com/ergul13/rafi.git
+git clone https://github.com/ergul13/Portfolio.git
 
 # Navigate to project directory
-cd rafi
+cd Portfolio
 
 # Install dependencies
 npm install
@@ -77,7 +77,7 @@ src/
 ## 📬 Contact
 
 **M. Ergül Akgül**  
-📍 Ankara, Türkiye  
+📍 Kayseri, Türkiye  
 📧 [LinkedIn](https://www.linkedin.com/in/ergul13/)  
 🐙 [GitHub](https://github.com/ergul13)  
 🤗 [Hugging Face](https://huggingface.co/ergulakgul)
